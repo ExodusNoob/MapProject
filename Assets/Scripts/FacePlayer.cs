@@ -22,7 +22,7 @@ public class FacePlayer : MonoBehaviour
     }
     void Update()
     {
-        bool isPlayerRight = transform.position.x < rplayer.transform.position.x;
+        bool isPlayerRight = transform.position.x > rplayer.transform.position.x;
         Flip(isPlayerRight);
     }
 
